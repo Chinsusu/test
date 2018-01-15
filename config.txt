@@ -1,0 +1,33 @@
+﻿
+"cpu_threads_conf" : 
+[
+    { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 0 },
+    { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 2 },
+    { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 4 },
+    { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 6 },
+],
+
+"use_slow_memory" : "warn",
+
+"nicehash_nonce" : false,
+
+"aes_override" : null,
+
+"use_tls" : false,
+"tls_secure_algo" : true,
+"tls_fingerprint" : "",
+
+
+"pool_address" : "mine.sumo.fairpool.xyz:5555",
+"wallet_address" : "Sumoo1pYUGv82ekW1KbHiXRfwV8Us2Kr74CqnugqnCruemNRzhDPHYxHSnMuB1SnvD56Ki2s2J2NE5SuWGapWdef6QfUM4pTE61.GG",
+"pool_password" : "x",
+
+"call_timeout" : 10,
+"retry_time" : 10,
+"giveup_limit" : 0,
+"verbose_level" : 3,
+"h_print_time" : 60,
+"daemon_mode" : false,
+"output_file" : "",
+"httpd_port" : 0,
+"prefer_ipv4" : true,
